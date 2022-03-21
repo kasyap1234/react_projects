@@ -26,7 +26,7 @@ setResult(eval(cost + tip));
 
       <input type="number" className="tip"  onChange={(e)=>setTip(Number(e.target.value))}/>
       <br/> 
-      <button type="submit" onClick={calculate} >Calculate</button> 
+      <button type="submit" className="submit" onClick={calculate} >Calculate</button> 
 
 
       <p>The final bill is {result}</p> 
