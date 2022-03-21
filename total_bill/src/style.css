@@ -1,3 +1,27 @@
 h1, p {
   font-family: Lato;
 }
+*{
+  text-align: center;  
+   margin-top:30px; border: ;
+}
+.submit{
+  padding: 8px;
+  margin: 10px ;
+ background-color: rgb(211, 155, 0)
+  
+
+
+ 
+ 
+}
+.bill{
+  border:1px solid #333; 
+padding : 6px; 
+border-radius: 4px;
+}
+.tip{
+  border: 1px solid #333; 
+  border-radius: 4px;
+  padding:6px; 
+}
