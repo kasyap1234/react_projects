@@ -1,0 +1,30 @@
+.input__bar{
+  border: 2px solid black; 
+  border-radius: 10px; 
+  padding: 10px; 
+
+}
+.add{
+  padding: 10px; 
+  background-color: limegreen; 
+  color: white; 
+  border-radius: 14px; 
+}
+.element{
+  padding: 15px; 
+  
+  margin: 5px; 
+
+
+
+
+}
+.delete{
+  background-color:rgb(255, 51, 0); 
+
+  color : white; 
+  padding: 10px; 
+   border: 2px solid black; 
+   border-radius: 14px; 
+
+}
