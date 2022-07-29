@@ -1,0 +1,29 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+input{
+  padding: 10px; 
+  border-radius: 10px; 
+  margin-bottom: 20px; 
+  font-size: large; 
+
+}
+button {
+  padding: 10px; 
+  border-radius: 20px; 
+  color: white; 
+
+  background-color: rgb(14, 144, 237); 
+  font-size : large; 
+  
+  font-weight: 400; 
+
+}
+.link{
+  text-decoration: none;
+  color: white; 
+  background-color: green ; 
+  padding: 10px; 
+  border-radius: 5px; 
+}
