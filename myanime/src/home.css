@@ -1,0 +1,48 @@
+.home__bar {
+  margin-top: 5vh;
+  text-align: center;
+
+  margin-bottom: 90vh;
+}
+.navbar {
+  margin: 5vh;
+  display: inline-block;
+}
+
+.quotes {
+  text-decoration: none;
+  color: var(--light);
+
+  background-color: var(--secondary);
+  padding: 10px;
+  margin: 5px;
+
+  border-radius: 10px;
+}
+.facts__link {
+  text-decoration: none;
+  color: var(--light);
+
+  background-color: var(--secondary);
+  padding: 10px;
+
+  border-radius: 10px;
+}
+.random__image {
+  text-decoration: none;
+  color: var(--light);
+
+  background-color: var(--secondary);
+  padding: 10px;
+  margin: 5px;
+
+  border-radius: 10px;
+}
+.database__link {
+  text-decoration: none;
+  color: var(--light);
+  background-color: var(--secondary);
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+}

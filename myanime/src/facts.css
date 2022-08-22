@@ -1,0 +1,15 @@
+.facts {
+  margin-bottom: 90vh;
+}
+input {
+  padding: 20px;
+  max-width: 50vw;
+  border-radius: 10px;
+  border: 2px solid black;
+  font-size: large;
+}
+.search__button {
+  padding: 20px;
+  font-size: medium;
+  width: 135px;
+}
