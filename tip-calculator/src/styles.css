@@ -1,0 +1,47 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body{
+  background-color: rgb(224,224,224); 
+
+}
+.card{
+  background-color: white; 
+  border-radius: 20px; 
+
+  margin-top: 30%; 
+  margin-left: 10%; 
+  margin-right: 10%; 
+
+
+}
+input{
+
+   
+  border-radius: 6px; 
+  padding: 10px; 
+  font: large; 
+
+
+
+}
+
+button {
+  background-color: purple; 
+  color: white; 
+  padding: 1%; 
+  border-radius: 10px; 
+  margin: 10px; 
+
+}
+.heading{
+   background-color: violet;
+   padding: 10px; 
+   border-radius: 10px; 
+   color: white; 
+   font-weight: 700; 
+   
+
+
+}
