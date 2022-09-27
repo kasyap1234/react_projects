@@ -1,0 +1,47 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.input--box {
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 200px;
+  text-align: center;
+  margin: auto;
+}
+.submit {
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  background-color: #007fff;
+  color: white;
+}
+.clipboard {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(116, 189, 8);
+  color: white;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+body {
+  background-color: rgb(240, 240, 240);
+}
+.card--1 {
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 2vh;
+  background-color: white;
+
+  text-align: center;
+  margin-top: 30vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+.heading {
+  margin--left: 20px;
+  text-align: center;
+}
+input {
+}
