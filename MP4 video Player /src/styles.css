@@ -1,0 +1,20 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.input--bar {
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+.clear--button {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: red;
+  color: white;
+}
+.Toggle {
+  padding: 10px;
+  background-color: purple;
+  color: white;
+}
