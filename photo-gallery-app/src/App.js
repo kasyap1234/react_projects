@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import "./styles.css"; 
+import "./styles.css";
 
 function PhotoGallery() {
   const [photos, setPhotos] = useState([]);
@@ -22,9 +22,7 @@ function PhotoGallery() {
       .catch((error) => {
         setError(error);
       });
-      e.preventDefault(); 
-     
-
+    e.preventDefault();
   }
 
   if (error) {
@@ -45,20 +43,22 @@ function PhotoGallery() {
           placeholder="search here"
           className="input-bar"
         />
-        <button  className="search" type="submit" onClick={Search}>
+        <button className="search" type="submit" onClick={Search}>
           Search
         </button>
       </form>
-      {  filteredPhotos.results ? filteredPhotos.results.map((photo, index) => (
-  <img src={photo.urls.small} key={index} />
-)) : null }
-
-   
-
-
-     
+      <div className="display">
+      {filteredPhotos.results
+        ? filteredPhotos.results.map((photo, index) => (
+            
+              <img className="images" src={photo.urls.small} key={index} />
+           
+          ))
+        : null}
+        </div>
     </div>
   );
 }
 
 export default PhotoGallery;
+
